@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: app1-nginx
-          image: acregistry.azurecr.io/javaimage
+          image: acregistry.azurecr.io/javaimage:$(tag)
           ports:
             - containerPort: 80
 ---
